@@ -1,12 +1,12 @@
 %global pyversion 1.4.0
 
 Name:    watchman
-Version: 4.9.0
+Version: 2020.11.23
 Release: 2%{?dist}
 Summary: Watches files and records, or triggers actions, when they change.
 License: APL2
 URL:     https://facebook.github.io/watchman/
-Source0: https://github.com/facebook/%{name}/archive/v%{version}.tar.gz
+Source0: https://github.com/facebook/%{name}/archive/v%{version}.00.tar.gz
 
 BuildRequires: gcc-c++
 BuildRequires: libtool
